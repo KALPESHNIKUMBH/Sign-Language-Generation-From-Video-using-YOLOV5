@@ -7,10 +7,20 @@ git clone https://github.com/KALPESHNIKUMBH/Sign-Language-Generation-From-Video-
 ***
 cd Sign-Language-Generation-From-Video-using-YOLOV5/
 ***
-
-### To create a virtual environment
-***
 conda create -n sign python=3.7 -y
 ***
 conda activate sign
 ***
+git clone https://github.com/ultralytics/yolov5.git
+***
+## now copy run.py and best.pt and paste into yolov5 
+***
+cd yolov5/
+***
+pip install -r requirements.txt 
+***
+python run.py
+***
+Your web cam will open to exit press Ctrl+C
+***
+Thank you..
